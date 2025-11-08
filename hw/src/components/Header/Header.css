@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 63px;
+    font-weight: 700;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    margin-bottom: 10px;position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.header > .name,
+.header > .lastname {
+    flex-basis: 25%;
+}
+
+.header > .phone-number {
+    flex-basis: 30%;
+}
+
+.header > .actions {
+    flex-basis: 20%;
+    text-align: right;
+}
+
+.light-theme {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+.dark-theme .header {
+    background-color: #333;
+    border-bottom: 1px solid #666;
+}
+
+.dark-theme .edit-button {
+    background-color: #555;
+    color: white;
+}

@@ -1,0 +1,127 @@
+:root {
+    --primary-color: #3f51b5;
+    --secondary-color: #f50057;
+    --border-color: #e0e0e0;
+    --text-color: #333333;
+}
+
+.list-item {
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.list-item:hover {
+    background-color: #ededed;
+}
+
+.list-item .contact-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 5px 10px;
+    min-height: 40px;
+}
+
+.list-item .contact-row .name,
+.list-item .contact-row .last-name,
+.list-item .contact-row input[name='name'],
+.list-item .contact-row input[name='surname'] {
+    flex-basis: 25%;
+    padding: 8px 8px;
+}
+
+.list-item input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.list-item input[type='number']::-webkit-outer-spin-button,
+.list-item input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.list-item .contact-row .phone-number,
+.list-item .contact-row input[name='phoneNumber'] {
+    flex-basis: 30%;
+    padding: 8px 8px;
+}
+
+.list-item .contact-row .actions {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.list-item input[type='text'] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+}
+
+.list-item input[type='text']:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 1px var(--primary-color);
+}
+
+.list-item .actions .delete-button {
+    background-color: #ffcdd2;
+    color: var(--secondary-color);
+}
+
+.list-item .actions .delete-button:hover {
+    background-color: #e57373;
+    color: white;
+}
+
+.list-item .actions .edit-button {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.list-item .actions .edit-button:hover {
+    background-color: #303f9f;
+}
+
+.list-item .actions .save-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.list-item .save-button:disabled {
+    background-color: #a5d6a7;
+    color: #f0f0f0;
+    cursor: not-allowed;
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.list-item .actions .cancel-button {
+    background-color: #e0e0e0;
+    color: var(--text-color);
+}
+
+.list-item .validate-message {
+    text-align: center;
+    color: red;
+}
+
+.validate-message .hidden {
+    visibility: hidden;
+}
+
+.validate-message .shown {
+    visibility: visible;
+}
+
+.dark-theme .list-item:hover {
+    background-color: #5d5d5d;
+}

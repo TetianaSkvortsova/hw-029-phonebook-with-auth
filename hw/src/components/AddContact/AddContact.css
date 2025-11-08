@@ -1,0 +1,78 @@
+.add-contact {
+    text-align: center;
+    margin: 30px 0 40px 0;
+    padding: 0 15px;
+}
+
+.add-contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    color: var(--primary-color);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.add-contact-button:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-contact-button:active {
+    background-color: #e0e0e0;
+}
+
+.add-contact-button::before {
+    content: '+';
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 8px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.add-contact-button:disabled {
+    background-color: #cccccc;
+    color: #888888;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.add-contact-button:disabled::before {
+    color: #888888;
+}
+
+.add-contact-button:disabled:hover {
+    background-color: #cccccc;
+    box-shadow: none;
+}
+
+.light-theme {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+.dark-theme .header {
+    background-color: #333;
+    border-bottom: 1px solid #666;
+}
+
+.dark-theme .edit-button {
+    background-color: #555;
+    color: white;
+}
