@@ -1,0 +1,124 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Artem",
+      "surname": "Kovalenko",
+      "phoneNumber": "380971234567"
+    },
+    {
+      "id": 2,
+      "name": "Oksana",
+      "surname": "Melnyk",
+      "phoneNumber": "380662345678"
+    },
+    {
+      "id": 3,
+      "name": "Dmytro",
+      "surname": "Shevchenko",
+      "phoneNumber": "380503456789"
+    },
+    {
+      "id": 4,
+      "name": "Tetiana",
+      "surname": "Bilenko",
+      "phoneNumber": "380934567890"
+    },
+    {
+      "id": 5,
+      "name": "Vladyslav",
+      "surname": "Polischuk",
+      "phoneNumber": "380675678901"
+    },
+    {
+      "id": 6,
+      "name": "Yulia",
+      "surname": "Lysenko",
+      "phoneNumber": "380966789012"
+    },
+    {
+      "id": 7,
+      "name": "Maksym",
+      "surname": "Sydorenko",
+      "phoneNumber": "380997890123"
+    },
+    {
+      "id": 8,
+      "name": "Viktoria",
+      "surname": "Tkachenko",
+      "phoneNumber": "380738901234"
+    },
+    {
+      "id": 9,
+      "name": "Pavlo",
+      "surname": "Franko",
+      "phoneNumber": "380689012345"
+    },
+    {
+      "id": 10,
+      "name": "Olena",
+      "surname": "Petrenko",
+      "phoneNumber": "380950123456"
+    },
+    {
+      "id": 11,
+      "name": "Andriy",
+      "surname": "Koval",
+      "phoneNumber": "380631234567"
+    },
+    {
+      "id": 12,
+      "name": "Nataliia",
+      "surname": "Savchenko",
+      "phoneNumber": "380982345678"
+    },
+    {
+      "id": 13,
+      "name": "Ihor",
+      "surname": "Bondarenko",
+      "phoneNumber": "380663456789"
+    },
+    {
+      "id": 14,
+      "name": "Halyna",
+      "surname": "Zubko",
+      "phoneNumber": "380504567890"
+    },
+    {
+      "id": 15,
+      "name": "Serhiy",
+      "surname": "Klimenko",
+      "phoneNumber": "380975678901"
+    },
+    {
+      "id": 16,
+      "name": "Inna",
+      "surname": "Moroz",
+      "phoneNumber": "380676789012"
+    },
+    {
+      "id": 17,
+      "name": "Denys",
+      "surname": "Voloshyn",
+      "phoneNumber": "380937890123"
+    },
+    {
+      "id": 18,
+      "name": "Khrystyna",
+      "surname": "Hrytsenko",
+      "phoneNumber": "380998901234"
+    },
+    {
+      "id": 19,
+      "name": "Roman",
+      "surname": "Kravchuk",
+      "phoneNumber": "380739012345"
+    },
+    {
+      "id": 20,
+      "name": "Anastasiia",
+      "surname": "Lytvyn",
+      "phoneNumber": "380680123456"
+    }
+  ]
+}
